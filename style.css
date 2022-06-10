@@ -7,4 +7,6 @@ body{
 p{
     color: aliceblue;
     font-family: Arial;
+    border: 2px solid white;
+    border-radius: 10px;
 }

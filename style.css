@@ -6,8 +6,6 @@ body {
     justify-content: center;
     background: rgb(230, 229, 242);
     background: linear-gradient(90deg, rgba(230, 229, 242, 1) 0%, rgba(205, 205, 205, 1) 35%, rgba(255, 205, 253, 1) 100%);
-
-
 }
 
 .entrada {
@@ -20,11 +18,6 @@ body {
     border-radius: 50px;
     align-items: center;
     margin-top: 200px;
-
-
-
-
-
 }
 
 .entrada-foto {
@@ -36,9 +29,7 @@ body {
     margin-top: 50px;
     border: solid 5px rgb(97, 94, 94) ;
     border-style: dotted;
-    box-shadow: ;
-
-
+    
 }
 
 .entrada-conteudo {

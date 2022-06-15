@@ -1,12 +1,51 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(230, 229, 242);
+    background: linear-gradient(90deg, rgba(230, 229, 242, 1) 0%, rgba(205, 205, 205, 1) 35%, rgba(255, 205, 253, 1) 100%);
+
+
 }
 
-p{
-    color: aliceblue;
-    font-family: Arial;
-    border: 2px solid white;
-    border-radius: 10px;
+.entrada {
+
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(226, 177, 231);
+    background: linear-gradient(0deg, rgba(226, 177, 231, 1) 0%, rgba(237, 160, 212, 1) 100%);
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 200px;
+
+
+
+
+
+}
+
+.entrada-foto {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 50px;
+    border: solid 5px rgb(97, 94, 94) ;
+    border-style: dotted;
+    box-shadow: ;
+
+
+}
+
+.entrada-conteudo {
+    margin-bottom: 20px;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    color: #615e5e;
 }
